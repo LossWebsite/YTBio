@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime List (Only authorised people)</title>
+    <link rel="shortcut icon" href="logo.png">
+
+    <style>
+        html{
+            background-color: black;
+            transition: 0.3s ease;
+            scrollbar-width: none;
+        }
+
+        .character-box {
+            font-style: normal;
+            background-color: #2e2e2e;
+            padding: 10px 10px;
+            border-radius: 25px;
+            width: 40%;
+            margin: 0 auto;
+            transition: all 0.6s ease;
+            color: white;
+            scale: 0.7;
+        }
+
+        .character-box:hover{
+            scale: 0.8;
+            transition: 0.6s ease;
+            box-shadow: 0 50px 25px 0 #797979;
+            margin-bottom: 50px;
+        }
+
+        .character-box h1{
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            opacity: 1;
+            transition: all 0.6s ease;
+        }
+
+        .character-box h1[class="name"]{
+            font-size: 25px;
+        }
+
+        .character-box h1[class="anime"]{
+            font-size: 25px;
+        }
+
+        .character-box p{
+            font-style: normal;
+            font-family: monospace;
+            margin: 5%;
+            align-content: center;
+            text-align: center;
+            font-size: 17px;
+            opacity: 1;
+            transition: optacity 0.6s ease;
+        }
+
+        .character-box img{
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+            height: 250px;
+            border-radius: 25px;
+            transition: all 0.6s ease;
+        }
+        
+        @media(max-width:320px){
+
+            .character-box{
+                width: 80%;
+                margin: 10%;
+            }
+
+            .character-box img{
+                margin: 0 auto;
+            }
+        }
+
+        @media(max-width:480px){
+
+            .character-box{
+                width: 80%;
+                margin: 10%;
+            }
+
+            .character-box img{
+                margin: 0 auto;
+            }
+        }
+
+        @media(max-width:720px){
+
+            .character-box{
+                width: 80%;
+                margin: 10%;
+            }
+
+            .character-box img{
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-container">
+        <div class="character-box">
+            <image src="sungjinwoo.png" alt="Sung Jinwoo" class="Jinwoo"></image>
+            <h1 class="name"> Name: Sung Jinwoo</h1>
+            <h1 class="anime"> Anime: Solo Leveling</h1>
+            <p>Sung Jinwoo is the main protagoinst of Solo Leveling. He is the strongest hunter in the world and the second Shadow Monarch, having the inherited the position from his predecessor Ashborn. </p> <p>Surpassing all National Level and S Rank hunters Sung Jinwoo is the strongest character in Solo Leveling. Orginally an infamously weak E-Rank hunter, Jinwoo got the chance of a lifetime when he was selected a the player of the System, giving him the unique ability to grow in atrength without restraint. As a result, by taking advantage of the opportunities offered th him by the System, Jinwoo eventually rose to power as humanity's greatest hunter.</p>
+        </div>
+        <div class="character-box">
+            <image src="eren.png" alt="Eren Yeager" class="eren-yeager"></image>
+            <h1 class="name"> Name: Eren Yeager</h1>
+            <h1 class="anime"> Anime: Attack On Titan (AOT)</h1>
+            <p>Eren Yeager, the main protagonist of Attack on Titan, presents himself as a passionate impulsive, and daring young man filled with rage against Titans, human devouring beings.</p><p>His hatred was further fuelled by the memories of his mother eaten by a Titan right before his eyes. After the tragic event, he made it his mission to join the Surver Corps and kill every single Titan off the face of the earth with his best friend Armin Arlet and adopted sister Mikasa Ackermann.</p>
+        </div>
+        <div class="character-box">
+            <image src="asta.png" alt="Asta" class="asta"></image>
+            <h1 class="name"> Name: Asta</h1>
+            <h1 class="anime"> Anime: Black Clover</h1>
+            <p>Asta is a fictional character and the main protagonist of the manga series Black Clover created by Yūki Tabata. A peasant orphan who was left at a church, he aspires to become the next Wizard King. </p><p>He has no magical power, but overcame this through intense physical training which allow him to wield anti-magic swords from a five-leaf clover grimoire in which a devil resides. He then becomes a Magic Knight, joining the Black Bulls squad in hopes of achieving his dream.</p>
+        </div>
+        <div class="character-box">
+            <img src="aayanakoji.png" alt="Kiyotaka Ayanakoji" class="ayanakoji">
+            <h1 class="name"> Name: Kiyotaka Ayanakoji</h1>
+            <h1 class="anime"> Anime: Classroom Of the Elite (COTE)</h1>
+            <p>Kiyotaka Ayanokoji is the main protagonist of Classroom of the Elite. A calm and calculating individual, he hides his extraordinary intellect and abilities behind a facade of mediocrity.</p>    <p>As a product of the White Room, Ayanokoji is a master manipulator who uses his strategic thinking to influence events and people around him, always staying several steps ahead.</p>
+        </div>
+    </div>
+</body>
+</html>
